@@ -1,5 +1,6 @@
-#ignore docs test
+#ignore tests
 docs/test/
+bot/
 
 # don't track compiled files
 dist/

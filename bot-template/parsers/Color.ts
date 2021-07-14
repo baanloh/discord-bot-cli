@@ -1,6 +1,7 @@
 import { ParsingContext } from "../../src/models/parsers/ParsingContext";
 import { InvalidValueParseError } from "../../src/models/parsers/errors/base";
 import { CustomParser } from "../../src/models/parsers/Parser";
+import { Color } from "../models/Color";
 
 export class ColorParser extends CustomParser<Color> {
     constructor() {
@@ -17,8 +18,6 @@ export class ColorParser extends CustomParser<Color> {
         const b = context.nextInteger();
         if (b < 0 || b > 255) throw new InvalidValueParseError();
 
-        return [r, g, b];
+        return Color.rgb(r, g, b);
     }
 }
-
-export type Color = [number, number, number];

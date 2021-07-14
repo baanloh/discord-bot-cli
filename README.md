@@ -29,6 +29,16 @@ Check out [the wiki](https://github.com/tguichaoua/discord-bot-cli/wiki/Installa
 - [Documentation](https://tguichaoua.github.io/discord-bot-cli/v6/)
 - [Wiki](https://github.com/tguichaoua/discord-bot-cli/wiki)
 
+## Example
+
+The repository contains an example bot in the `example` folder. To run it:
+1. Clone this repository : `git clone https://github.com/tguichaoua/discord-bot-cli.git dbc`
+2. Enter the folder : `cd dbc`
+3. Install dependencies : `npm ci`
+4. In the `example` folder, create a copy of `env.example.jsonc` and name it `env.json`
+5. Fill up `env.json` and remove comments
+6. Run the example bot : `npm run example`
+
 ## Author
 
 👤 **Tristan Guichaoua**

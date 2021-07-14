@@ -11,5 +11,5 @@
         "forceConsistentCasingInFileNames": true,
         "stripInternal": true
     },
-    "exclude": ["node_modules", "dist", "test", "chores"]
+    "exclude": ["node_modules", "dist", "test", "chores", "example"]
 }
